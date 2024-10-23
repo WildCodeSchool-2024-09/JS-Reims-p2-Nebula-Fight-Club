@@ -1,12 +1,12 @@
 import "./App.css";
 import Navbar from "./components/NavBar.tsx";
+import Backbanner from "./components/banner";
 
 function App() {
   return (
     <>
-      <div className="navbar-container">
-        <Navbar />
-      </div>
+      <Backbanner />
+      <Navbar />
     </>
   );
 }
