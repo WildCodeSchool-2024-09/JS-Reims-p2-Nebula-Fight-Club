@@ -1,0 +1,20 @@
+:root {
+  margin: 0;
+  line-height: 1.5;
+  color-scheme: light dark;
+  background-color: black;
+}
+
+.topbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  background-image: url("./assets/images/banner.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+  max-height: 350px;
+  min-width: fit-content;
+  background-position: center;
+}
