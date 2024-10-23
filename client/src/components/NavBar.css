@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
+
+:root {
+  --primary-color: #3b556d;
+  --secondary-color: #e9f0f7;
+  --dark: #0b162c;
+  --font-family1: "Playfair Display", serif;
+  --font-family2: "Prompt", sans-serif;
+}
+
+.my-button-container {
+  background-color: var(--secondary-color);
+  color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-family: var(--font-family2,);
+  font-size: 16px;
+  border: thick double var(--secondary-color);
+  border-radius: 10px;
+  padding: 0.5rem;
+}
