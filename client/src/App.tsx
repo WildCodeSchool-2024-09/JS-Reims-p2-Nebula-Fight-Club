@@ -1,5 +1,4 @@
 import Body from "../src/components/Body";
-
 import "./App.css";
 import Footer from "./components/Footer.tsx";
 import Navbar from "./components/NavBar.tsx";
@@ -11,7 +10,7 @@ function App() {
       <Backbanner />
       <Navbar />
       <Body />
-      <Footer/>
+      <Footer />
     </>
   );
 }
