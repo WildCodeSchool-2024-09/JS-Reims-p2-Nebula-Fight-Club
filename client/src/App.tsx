@@ -12,7 +12,6 @@ function App() {
       <Backbanner />
       <Navbar />
       <Body />
-      <Footer />
       <Card
         image="https://www.superherodb.com/pictures2/portraits/10/100/639.jpg"
         firstName="Bruce Wayne"
@@ -34,6 +33,7 @@ function App() {
         alias="Batman"
       />
       <Fightbutton />
+      <Footer />
     </>
   );
 }
