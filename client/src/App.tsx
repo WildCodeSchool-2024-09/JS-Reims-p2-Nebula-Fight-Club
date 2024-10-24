@@ -1,3 +1,4 @@
+import Footer from "./components/Footer.tsx";
 import "./App.css";
 import Body from "../src/components/Body";
 import Backbanner from "./components/Banner.tsx";
@@ -32,6 +33,7 @@ function App() {
         alias="Batman"
       />
       <Fightbutton />
+      <Footer />
     </>
   );
 }
