@@ -2,7 +2,7 @@ function click() {
   alert("Make your team, avaible soon");
 }
 
-const Fightbutton = () => {
+const FightButton = () => {
   return (
     <div className="Fight">
       <button type="button" onClick={click}>
@@ -12,4 +12,4 @@ const Fightbutton = () => {
   );
 };
 
-export default Fightbutton;
+export default FightButton;
