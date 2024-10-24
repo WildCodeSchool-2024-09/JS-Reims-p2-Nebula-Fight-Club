@@ -1,22 +1,21 @@
-.card-container {
-    min-width: 400px;
-    min-height: 600px;
-    background-color: #0B162C;
+.body-card {
+  min-width: 400px;
+  min-height: 600px;
+  background-color: #0b162c;
 }
 
 .image-card {
-    width: 350px;
-    height: 550px;
-    margin: 0 20%;
+  width: 350px;
+  height: 550px;
+  margin: 0 20%;
 }
 
-.card-p {
-    width: 60%;
-    height: 50px;
-    background-color: #3b556d;
-    border: 2px #ffffff solid;
-    color: #ffffff;
-    box-shadow: none;
-    margin: 0 18%;
-    padding: 0.2rem;
+li {
+  width: 60%;
+  height: 50px;
+  background-color: #3b556d;
+  color: #ffffff;
+  box-shadow: none;
+  margin: 0 18%;
+  padding: 0.2rem;
 }

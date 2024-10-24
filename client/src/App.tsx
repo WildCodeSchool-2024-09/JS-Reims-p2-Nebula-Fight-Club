@@ -1,9 +1,8 @@
-import Body from "../src/components/Body";
-
 import "./App.css";
+import Body from "../src/components/Body";
+import Card from "./components/Card.tsx";
 import Navbar from "./components/NavBar.tsx";
 import Backbanner from "./components/banner";
-import Card from "./components/Card.tsx";
 
 function App() {
   return (
@@ -13,19 +12,23 @@ function App() {
       <Body />
       <Card
         image="https://www.superherodb.com/pictures2/portraits/10/100/639.jpg"
-        firstName="Batman"
+        firstName="Bruce Wayne"
+        alias="Batman"
       />
-            <Card
+      <Card
         image="https://www.superherodb.com/pictures2/portraits/10/100/639.jpg"
-        firstName="Batman"
+        firstName="Bruce Wayne"
+        alias="Batman"
       />
-            <Card
+      <Card
         image="https://www.superherodb.com/pictures2/portraits/10/100/639.jpg"
-        firstName="Batman"
+        firstName="Bruce Wayne"
+        alias="Batman"
       />
-            <Card
+      <Card
         image="https://www.superherodb.com/pictures2/portraits/10/100/639.jpg"
-        firstName="Batman"
+        firstName="Bruce Wayne"
+        alias="Batman"
       />
     </>
   );

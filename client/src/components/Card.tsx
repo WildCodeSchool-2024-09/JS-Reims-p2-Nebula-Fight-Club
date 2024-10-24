@@ -3,13 +3,17 @@ import "./Card.css";
 interface CardsProps {
   image: string;
   firstName: string;
+  alias: string;
 }
 
 function Card(props: CardsProps) {
   return (
-    <div className="card-container">
+    <div className="body-card">
       <img className="image-card" src={props.image} alt={props.firstName} />
-      <p className="card-p">{props.firstName}</p>
+      <ul>
+        <li>{props.firstName}</li>
+        <li>{props.alias}</li>
+      </ul>
     </div>
   );
 }
