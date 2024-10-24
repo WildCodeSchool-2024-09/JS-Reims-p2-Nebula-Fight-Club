@@ -2,7 +2,8 @@ import "./App.css";
 import Body from "../src/components/Body";
 import Card from "./components/Card.tsx";
 import Navbar from "./components/NavBar.tsx";
-import Backbanner from "./components/banner";
+import Backbanner from "./components/Banner.tsx";
+import Fightbutton from "./components/FightButton.tsx";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         firstName="Bruce Wayne"
         alias="Batman"
       />
+      <Fightbutton />
     </>
   );
 }

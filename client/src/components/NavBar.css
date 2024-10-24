@@ -17,7 +17,7 @@
   padding: 0.5rem;
 }
 
-button {
+.navbutton {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   font-family: var(--font-family2,);
