@@ -1,9 +1,9 @@
 import "./App.css";
 import Body from "../src/components/Body";
-import Card from "./components/Card.tsx";
-import Navbar from "./components/NavBar.tsx";
 import Backbanner from "./components/Banner.tsx";
+import Card from "./components/Card.tsx";
 import Fightbutton from "./components/FightButton.tsx";
+import Navbar from "./components/NavBar.tsx";
 
 function App() {
   return (
