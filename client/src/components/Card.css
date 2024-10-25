@@ -1,0 +1,39 @@
+:root {
+  --primary-color: #3b556d;
+  --secondary-color: #e9f0f7;
+  --dark: #0b162c;
+  --darkblue: #1c2942;
+  --toolightblue: #5fc2ba;
+  --font-family1: "Playfair Display", serif;
+  --font-family2: "Prompt", sans-serif;
+  margin: 0;
+  line-height: 1.5;
+  color-scheme: light dark;
+  background-color: black;
+}
+
+.body-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  background-color: var(--darkblue);
+  border-radius: 25px;
+  margin-bottom: 10px;
+
+  border: 2px solid var(--primary-color);
+  box-shadow: 2px 2px 5px var(--primary-color);
+}
+
+.image-card {
+  height: 400px;
+  margin: 0 20%;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.hero-data {
+  max-width: fit-content;
+  min-height: fit-content;
+  color: var(--secondary-color);
+}
