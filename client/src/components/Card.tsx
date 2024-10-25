@@ -2,17 +2,17 @@ import "./Card.css";
 
 interface CardsProps {
   image: string;
-  firstName: string;
-  alias: string;
+  name: string;
+  genre: string;
 }
 
 function Card(props: CardsProps) {
   return (
     <div className="body-card">
-      <img className="image-card" src={props.image} alt={props.firstName} />
-      <ul className="hero-data">
-        <li>{props.firstName}</li>
-        <li>{props.alias}</li>
+      <img className="image-card" src={props.image} alt={props.name} />
+      <ul>
+        <li>{props.name}</li>
+        <li>{props.genre}</li>
       </ul>
     </div>
   );
