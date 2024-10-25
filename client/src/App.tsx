@@ -54,19 +54,23 @@ function App() {
 
   return (
     <>
-      <Backbanner />
-      <Navbar />
+      <div className="overtop">
+        <Backbanner />
+        <Navbar />
+      </div>
       <Body />
-      {heroes?.map((heroe) => {
-        return (
-          <Card
-            key={heroe.id}
-            image={heroe?.image?.url}
-            name={heroe?.name}
-            genre={heroe?.appearance.gender}
-          />
-        );
-      })}
+      <div className="pokecards">
+        {heroes?.map((heroe) => {
+          return (
+            <Card
+              key={heroe.id}
+              image={heroe?.image?.url}
+              name={heroe?.name}
+              genre={heroe?.appearance.gender}
+            />
+          );
+        })}
+      </div>
       <Fightbutton />
       <Footer />
     </>
