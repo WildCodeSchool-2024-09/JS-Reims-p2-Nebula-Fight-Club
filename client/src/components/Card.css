@@ -1,21 +1,39 @@
+:root {
+  --primary-color: #3b556d;
+  --secondary-color: #e9f0f7;
+  --dark: #0b162c;
+  --darkblue: #1c2942;
+  --toolightblue: #5fc2ba;
+  --font-family1: "Playfair Display", serif;
+  --font-family2: "Prompt", sans-serif;
+  margin: 0;
+  line-height: 1.5;
+  color-scheme: light dark;
+  background-color: black;
+}
+
 .body-card {
-  min-width: 400px;
-  min-height: 600px;
-  background-color: #0b162c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  background-color: var(--darkblue);
+  border-radius: 25px;
+  margin-bottom: 10px;
+
+  border: 2px solid var(--primary-color);
+  box-shadow: 2px 2px 5px var(--primary-color);
 }
 
 .image-card {
-  width: 350px;
-  height: 550px;
+  height: 400px;
   margin: 0 20%;
+  border-radius: 25px 25px 0px 0px;
 }
 
-li {
-  width: 60%;
-  height: 50px;
-  background-color: #3b556d;
-  color: #ffffff;
-  box-shadow: none;
-  margin: 0 18%;
-  padding: 0.2rem;
+.hero-data {
+  max-width: fit-content;
+  min-height: fit-content;
+  color: var(--secondary-color);
 }

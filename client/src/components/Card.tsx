@@ -10,7 +10,7 @@ function Card(props: CardsProps) {
   return (
     <div className="body-card">
       <img className="image-card" src={props.image} alt={props.firstName} />
-      <ul>
+      <ul className="hero-data">
         <li>{props.firstName}</li>
         <li>{props.alias}</li>
       </ul>

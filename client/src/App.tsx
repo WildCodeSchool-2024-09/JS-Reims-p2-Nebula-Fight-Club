@@ -9,29 +9,33 @@ import Navbar from "./components/NavBar.tsx";
 function App() {
   return (
     <>
-      <Backbanner />
-      <Navbar />
+      <div className="overtop">
+        <Backbanner />
+        <Navbar />
+      </div>
       <Body />
-      <Card
-        image="https://www.superherodb.com/pictures2/portraits/10/100/639.jpg"
-        firstName="Bruce Wayne"
-        alias="Batman"
-      />
-      <Card
-        image="https://www.superherodb.com/pictures2/portraits/10/100/639.jpg"
-        firstName="Bruce Wayne"
-        alias="Batman"
-      />
-      <Card
-        image="https://www.superherodb.com/pictures2/portraits/10/100/639.jpg"
-        firstName="Bruce Wayne"
-        alias="Batman"
-      />
-      <Card
-        image="https://www.superherodb.com/pictures2/portraits/10/100/639.jpg"
-        firstName="Bruce Wayne"
-        alias="Batman"
-      />
+      <div className="pokecards">
+        <Card
+          image="https://www.superherodb.com/pictures2/portraits/10/100/639.jpg"
+          firstName="Bruce Wayne"
+          alias="Batman"
+        />
+        <Card
+          image="https://www.superherodb.com/pictures2/portraits/10/100/639.jpg"
+          firstName="Bruce Wayne"
+          alias="Batman"
+        />
+        <Card
+          image="https://www.superherodb.com/pictures2/portraits/10/100/639.jpg"
+          firstName="Bruce Wayne"
+          alias="Batman"
+        />
+        <Card
+          image="https://www.superherodb.com/pictures2/portraits/10/100/639.jpg"
+          firstName="Bruce Wayne"
+          alias="Batman"
+        />
+      </div>
       <Fightbutton />
       <Footer />
     </>
