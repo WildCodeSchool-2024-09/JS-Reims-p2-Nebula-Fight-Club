@@ -1,12 +1,12 @@
 import Footer from "./components/Footer.tsx";
 import "./App.css";
 import { useEffect, useState } from "react";
-import { getAllHeroes } from "./data/getAllHeroes.ts";
 import Body from "../src/components/Body";
 import Backbanner from "./components/Banner.tsx";
 import Card from "./components/Card.tsx";
 import Fightbutton from "./components/FightButton.tsx";
 import Navbar from "./components/NavBar.tsx";
+import { getAllHeroes } from "./data/getAllHeroes.ts";
 
 interface Heroe {
   id: number;
@@ -63,7 +63,7 @@ function App() {
             key={heroe.id}
             image={heroe?.image?.url}
             name={heroe?.name}
-            genre={heroe?.appearance?.gender}
+            genre={heroe?.appearance.gender}
           />
         );
       })}
