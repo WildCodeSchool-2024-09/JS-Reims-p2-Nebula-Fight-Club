@@ -21,9 +21,13 @@
   background-color: var(--darkblue);
   border-radius: 25px;
   margin-bottom: 10px;
-
   border: 2px solid var(--primary-color);
   box-shadow: 2px 2px 5px var(--primary-color);
+}
+
+.body-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 5px 10px 15px #5fc2ba, 0px 4px 50px var(--primary-color);
 }
 
 .image-card {

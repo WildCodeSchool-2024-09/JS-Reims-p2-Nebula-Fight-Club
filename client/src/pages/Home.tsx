@@ -15,6 +15,7 @@ function Home() {
 
     fetchHeroes();
   }, []);
+
   return (
     <div>
       <Intro />

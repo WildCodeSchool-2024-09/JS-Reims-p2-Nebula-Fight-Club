@@ -1,6 +1,6 @@
 export async function getAllHeroes() {
   const accessToken = "9ee4fc0de4aeb36ca09d53d4b60c046d";
-  const ids = [487, 38, 140, 303, 381, 485];
+  const ids = [487, 38, 140, 303, 381, 485, 555, 366];
   const url = (id: number) =>
     `https://superheroapi.com/api.php/${accessToken}/${id}`;
 
