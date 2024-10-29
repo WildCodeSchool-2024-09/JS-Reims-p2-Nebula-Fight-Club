@@ -1,11 +1,16 @@
 import { useEffect, useState } from "react";
 import Card from "../components/Card";
 import FightButton from "../components/FightButton";
+import HeroDetailsModal from "../components/Hero-modal";
 import Intro from "../components/intro";
 import { getAllHeroes } from "../data/getAllHeroes";
 import type { Heroe } from "../types/Hero";
 
 function Home() {
+  const [selectedHero, setSelectedHero] = useState<Heroe | null>(null);
+  const handleCardClick = (heroe: Heroe) => {
+    setSelectedHero(heroe);
+  };
   const [heroes, setHeroes] = useState<Heroe[]>();
   useEffect(() => {
     const fetchHeroes = async () => {
@@ -27,11 +32,18 @@ function Home() {
               image={heroe?.image?.url}
               name={heroe?.name}
               genre={heroe?.appearance.gender}
+              onClick={() => handleCardClick(heroe)}
             />
           );
         })}
       </div>
       <FightButton />
+      {selectedHero && (
+        <HeroDetailsModal
+          hero={selectedHero}
+          onClose={() => setSelectedHero(null)}
+        />
+      )}
     </div>
   );
 }
