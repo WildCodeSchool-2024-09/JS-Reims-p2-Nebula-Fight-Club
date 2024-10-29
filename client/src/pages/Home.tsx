@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Card from "../components/Card";
 import FightButton from "../components/FightButton";
-import Intro from "../components/intro";
+import Intro from "../components/Intro";
 import { getAllHeroes } from "../data/getAllHeroes";
 import type { Heroe } from "../types/Hero";
 
