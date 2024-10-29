@@ -1,7 +1,7 @@
 export async function getAllHeroes() {
   const accessToken = "9ee4fc0de4aeb36ca09d53d4b60c046d";
-  const getRandomIds = (count, max) => {
-    const ids = [];
+  const getRandomIds = (count: number, max: number) => {
+    const ids: number[] = [];
     while (ids.length < count) {
       const id = Math.floor(Math.random() * max) + 1;
       if (!ids.includes(id)) {
