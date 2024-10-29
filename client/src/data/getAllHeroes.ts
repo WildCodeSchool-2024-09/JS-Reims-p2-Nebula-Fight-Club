@@ -1,6 +1,17 @@
 export async function getAllHeroes() {
   const accessToken = "9ee4fc0de4aeb36ca09d53d4b60c046d";
-  const ids = [487, 38, 140, 303, 381, 485];
+  const getRandomIds = (count, max) => {
+    const ids = [];
+    while (ids.length < count) {
+      const id = Math.floor(Math.random() * max) + 1;
+      if (!ids.includes(id)) {
+        ids.push(id);
+      }
+    }
+    return ids;
+  };
+
+  const ids = getRandomIds(8, 731);
   const url = (id: number) =>
     `https://superheroapi.com/api.php/${accessToken}/${id}`;
 
