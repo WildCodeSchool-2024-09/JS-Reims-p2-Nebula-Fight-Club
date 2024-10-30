@@ -1,0 +1,36 @@
+:root {
+  --primary-color: #3b556d;
+  --secondary-color: #e9f0f7;
+  --dark: #0b162c;
+  --darkblue: #1c2942;
+  --toolightblue: #5fc2ba;
+  --font-family1: "Playfair Display", serif;
+  --font-family2: "Prompt", sans-serif;
+  margin: 0;
+  line-height: 1.5;
+  color-scheme: light dark;
+  background-color: black;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.75); /* Ombre en arrière-plan */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: var(--primary-color);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  color: var(--toolightblue);
+}
