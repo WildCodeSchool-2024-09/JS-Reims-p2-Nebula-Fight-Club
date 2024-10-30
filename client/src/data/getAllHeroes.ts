@@ -1,5 +1,5 @@
 export async function getAllHeroes() {
-  const accessToken = "9ee4fc0de4aeb36ca09d53d4b60c046d";
+  const accessToken = import.meta.env.VITE_ACCESS_TOKEN;
   const getRandomIds = (count: number, max: number) => {
     const ids: number[] = [];
     while (ids.length < count) {
