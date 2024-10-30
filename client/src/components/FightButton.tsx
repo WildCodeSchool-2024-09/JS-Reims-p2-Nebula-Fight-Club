@@ -12,11 +12,22 @@ const FightButton = () => {
         <img className="logo-nebula" src={Aldenaire} alt="logo-nfc" />
       </Link>
       <ul className="rules">
+        <h3>Les règles du club</h3>
         <li>Première règle: On ne parle PAS du fightclub.</li>
-        <li>Seconde règle: Salvia paye toujours ses kebabs.</li>
-        <li>Troisième règle: Thomas a TOUJOURS raison.</li>
-        <li>Quatrième règle: Si Thomas a tord, référez vous à la règle 3.</li>
-        <li>Cinquième règle: Géraldine s'essaye au vaudou sur Thomas.</li>
+        <li>
+          Seconde règle: Si vous vous sentez audacieux, clickez sur le logo.
+        </li>
+        <li>
+          Troisième règle: Sélectionnez vos personnages de coeur pour former une
+          équipe.
+        </li>
+        <li>
+          Quatrième règle: Une fois l'équipe choisie; vous affronterez quelques
+          surprises...
+        </li>
+        <li>
+          Cinquième règle: N'oubliez pas: que le sort vous soit favorable !
+        </li>
       </ul>
     </div>
   );
