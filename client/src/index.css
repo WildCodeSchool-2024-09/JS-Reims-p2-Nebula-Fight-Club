@@ -2,8 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+
   list-style: none;
 }
 
@@ -22,7 +21,22 @@
   background-color: black;
 }
 
-.topbar {
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container {
+  border: solid 2px var(--secondary-color);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,13 +44,21 @@
   background-image: url("./assets/images/banner.gif");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 300px;
-  max-height: 350px;
-  min-width: fit-content;
+  height: 45vh;
+  width: 100%;
   background-position: center;
 }
-.overtop {
-  border: solid 2px var(--secondary-color);
+
+@media screen and (min-width: 1025px) {
+  .banner-container {
+    background-position: center center;
+    background-size: 100% 175%;
+    max-height: 500px;
+  }
+}
+
+.title-banner {
+  max-width: 75vw;
 }
 
 .my-button-container {
@@ -45,6 +67,7 @@
   display: flex;
   justify-content: center;
   padding: 0.5rem;
+  width: 100%;
 }
 
 .navbutton {
@@ -65,28 +88,46 @@
   color: var(--secondary-color);
   font-size: 1.75rem;
   background-color: var(--darkblue);
-  border: solid 2px;
+
   margin-bottom: 10px;
-  padding-top: 5px;
+}
+.intro-box {
+  border: solid 1px;
+  border-radius: 0px 0px 10px 10px;
+  background-color: var(--darkblue);
+}
+.intro {
+  text-align: center;
+  border-radius: 0px 0px 10px 10px;
+  font-family: var(--font-family2);
+  font-size: 1rem;
+  color: var(--secondary-color);
 }
 
 .item-banniere {
   border-radius: 10px;
-  background-color: var(--darkgrey);
+  background-color: var(--primary-color);
   border: solid 2px;
-  border-color: var(--primary-color);
+  border-color: var(--secondary-color);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: flex-end;
   margin-bottom: 10px;
   font-size: large;
+  color: var(--secondary-color);
   box-shadow: 2px 2px 5px var(--primary-color);
+  margin-top: 1.5rem;
+  padding: 0.5rem;
 }
 
 @media screen and (min-width: 750px) {
   .item-banniere {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 1.5rem;
   }
 }
 
@@ -94,7 +135,6 @@
   width: 75%;
   min-width: 70%;
   text-align: center;
-  word-wrap: break-word;
   font-family: var(--font-family2);
 }
 @media screen and (max-width: 500px) {
@@ -104,24 +144,16 @@
   }
 }
 .logo-nebula {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 250px;
 }
+
 @media screen and (max-width: 500px) {
   .logo-nebula {
     width: 200px;
   }
-}
-
-.intro {
-  text-align: center;
-  border-radius: 10px;
-  font-family: var(--font-family2);
-  font-size: 1rem;
-  background-color: var(--darkgrey);
-  border: solid 2px;
-  margin-bottom: 10px;
-  border-color: var(--darkblue);
-  box-shadow: 2px 2px var(--darkblue);
 }
 
 .pokecards {
@@ -141,6 +173,10 @@
   }
 }
 
+h3 {
+  text-align: center;
+}
+
 .Fight {
   display: flex;
   justify-content: center;
@@ -153,17 +189,20 @@
   border: thick double var(--secondary-color);
   border-radius: 10px;
   padding: 0.5rem;
-  margin: 2rem;
+  width: 300px;
+  margin-bottom: 1rem;
 }
 
 .footer {
   background-color: var(--darkblue);
+  color: var(--secondary-color);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border: solid 2px var(--secondary-color);
   border-radius: 10px 15px 0px 0px;
+  width: 100%;
 }
 .item-footer > p {
   text-align: center;
@@ -171,4 +210,11 @@
 .item-link > a {
   text-decoration: none;
   margin-right: 10px;
+  color: var(--toolightblue);
+}
+
+.item-link > a:hover {
+  text-decoration: none;
+  margin-right: 10px;
+  color: var(--secondary-color);
 }
