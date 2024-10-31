@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Card from "../components/Card";
 import FightButton from "../components/FightButton";
-import HeroDetailsModal from "../components/Hero-modal";
+import HeroDetailsModal from "../components/HeroModal";
 import Intro from "../components/intro";
 import { getAllHeroes } from "../data/getAllHeroes";
 import useScreenSize from "../hooks/useScreenSize";
