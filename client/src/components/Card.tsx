@@ -20,10 +20,10 @@ function Card(props: CardsProps) {
         onKeyDown={handleKeyDown}
       >
         <img className="image-card" src={props.image} alt={props.name} />
-        <ul className="hero-data">
-          <li>{props.name}</li>
-          <li>{props.genre}</li>
-        </ul>
+        <div className="hero-data">
+          <p>{props.name}</p>
+          <p>{props.genre}</p>
+        </div>
       </button>
     </div>
   );

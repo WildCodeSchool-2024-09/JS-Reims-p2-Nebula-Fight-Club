@@ -101,26 +101,33 @@
   border-radius: 0px 0px 10px 10px;
   font-family: var(--font-family2);
   font-size: 1rem;
+  color: var(--secondary-color);
 }
 
 .item-banniere {
   border-radius: 10px;
-  background-color: var(--darkgrey);
+  background-color: var(--primary-color);
   border: solid 2px;
-  border-color: var(--primary-color);
+  border-color: var(--secondary-color);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: flex-end;
   margin-bottom: 10px;
   font-size: large;
+  color: var(--secondary-color);
   box-shadow: 2px 2px 5px var(--primary-color);
   margin-top: 1.5rem;
+  padding: 0.5rem;
 }
 
 @media screen and (min-width: 750px) {
   .item-banniere {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 1.5rem;
   }
 }
 
@@ -128,7 +135,6 @@
   width: 75%;
   min-width: 70%;
   text-align: center;
-  word-wrap: break-word;
   font-family: var(--font-family2);
 }
 @media screen and (max-width: 500px) {
@@ -138,8 +144,12 @@
   }
 }
 .logo-nebula {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 250px;
 }
+
 @media screen and (max-width: 500px) {
   .logo-nebula {
     width: 200px;
@@ -163,6 +173,10 @@
   }
 }
 
+h3 {
+  text-align: center;
+}
+
 .Fight {
   display: flex;
   justify-content: center;
@@ -181,6 +195,7 @@
 
 .footer {
   background-color: var(--darkblue);
+  color: var(--secondary-color);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -195,4 +210,11 @@
 .item-link > a {
   text-decoration: none;
   margin-right: 10px;
+  color: var(--toolightblue);
+}
+
+.item-link > a:hover {
+  text-decoration: none;
+  margin-right: 10px;
+  color: var(--secondary-color);
 }
