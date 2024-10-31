@@ -15,7 +15,12 @@ function HeroDetailsModal({
         onKeyDown={handleKeyDown}
         onClick={(e) => e.stopPropagation()}
       >
-        <button type="button" onClick={onClose} style={{ float: "right" }}>
+        <button
+          className="btt-modal"
+          type="button"
+          onClick={onClose}
+          style={{ float: "right" }}
+        >
           Fermer
         </button>
         <h2>{hero.name}</h2>
