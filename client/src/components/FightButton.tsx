@@ -13,20 +13,24 @@ const FightButton = () => {
       </Link>
       <ul className="rules">
         <h3>Les règles du club</h3>
-        <li>Première règle: On ne parle PAS du fightclub.</li>
         <li>
-          Seconde règle: Si vous vous sentez audacieux, clickez sur le logo.
+          <strong>Première règle:</strong> On ne parle PAS du fightclub.
         </li>
         <li>
-          Troisième règle: Sélectionnez vos personnages de coeur pour former une
-          équipe.
+          <strong>Seconde règle:</strong> Si vous vous sentez audacieux, clickez
+          sur le logo.
         </li>
         <li>
-          Quatrième règle: Une fois l'équipe choisie; vous affronterez quelques
-          surprises...
+          <strong>Troisième règle:</strong> Sélectionnez vos personnages de
+          coeur pour former une équipe.
         </li>
         <li>
-          Cinquième règle: N'oubliez pas: que le sort vous soit favorable !
+          <strong>Quatrième règle:</strong> Une fois l'équipe choisie; vous
+          affronterez quelques surprises...
+        </li>
+        <li>
+          <strong>Cinquième règle:</strong> N'oubliez pas: que le sort vous soit
+          favorable !
         </li>
       </ul>
     </div>
