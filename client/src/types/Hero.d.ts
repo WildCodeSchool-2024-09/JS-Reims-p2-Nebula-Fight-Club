@@ -21,9 +21,11 @@ export interface Powerstats {
 
 export interface Biography {
   placeOfBirth: string;
-  firstAppearance: string;
+  "first-appearance": string;
   universe: string;
-  alignement: string;
+  alignment: string;
+  publisher: string;
+  aliases: string;
 }
 
 export interface Appearance {

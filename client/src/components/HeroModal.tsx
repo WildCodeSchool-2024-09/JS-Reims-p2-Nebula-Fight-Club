@@ -1,4 +1,5 @@
 import type { Heroe } from "../types/Hero";
+
 import "./Modal.css";
 
 function HeroDetailsModal({
@@ -9,41 +10,44 @@ function HeroDetailsModal({
     throw new Error("Function not implemented.");
   }
   return (
-    <div className="modal-overlay" onKeyDown={handleKeyDown} onClick={onClose}>
-      <div
-        className="modal"
+    <div>
+      <section
+        className="modal-overlay"
         onKeyDown={handleKeyDown}
-        onClick={(e) => e.stopPropagation()}
+        onClick={onClose}
       >
-        <button type="button" onClick={onClose} style={{ float: "right" }}>
-          ❌
-        </button>
-        <div className="modal-top-container">
-          <img className="modal-image" src={hero.image.url} alt={hero.name} />
-          <div className="Stat-hero">
-            <p>Vitesse = 20</p>
-            <p>Rapidité = 10</p>
-            <p>stat3 = 50</p>
-            <p>stat4 = 20</p>
-            <p>stat5 = 5</p>
-            <p>stat6 = 200</p>
-          </div>
+        <div>
+          <section
+            className="modal"
+            onKeyDown={handleKeyDown}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button type="button" onClick={onClose} style={{ float: "right" }}>
+              Fermer
+            </button>
+            <img className="img-char" src={hero.image.url} alt={hero.name} />
+            <h2>{hero.name}</h2>
+            <section className="stats-container">
+              <ul className="offensive-stats">
+                <li>COMBAT : {hero.powerstats.combat}</li>
+                <li>STRENGTH : {hero.powerstats.strength}</li>
+                <li>POWER : {hero.powerstats.power}</li>
+              </ul>
+              <ul className="defensive-stats">
+                <li>SPEED : {hero.powerstats.speed}</li>
+                <li>INTELLIGENCE : {hero.powerstats.intelligence}</li>
+                <li>DURABILITY : {hero.powerstats.durability}</li>
+              </ul>
+            </section>
+            <section className="card-data">
+              <p>Alignement : {hero.biography.alignment}</p>
+              <p>{hero.biography.aliases}</p>
+              <h3>{hero.biography["first-appearance"]}</h3>
+              <h3>{hero.biography.publisher}</h3>
+            </section>
+          </section>
         </div>
-        <div className="modal-bottom-container">
-          <h2>{hero.name}</h2>
-          <p>Comme l'a dit un grand philosophe... BASTOOOON !</p>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt
-            sit tempore, autem cumque similique possimus id itaque nulla minima
-            placeat?
-          </p>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt
-            sit tempore, autem cumque similique possimus id itaque nulla minima
-            placeat?
-          </p>
-        </div>
-      </div>
+      </section>
     </div>
   );
 }
