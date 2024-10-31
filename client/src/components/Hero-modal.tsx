@@ -29,6 +29,7 @@ function HeroDetailsModal({
           <p>stat5 = 5</p>
           <p>stat6 = 200</p>
         </div>
+        <div className="modal-bottom-container">
         <h2>{hero.name}</h2>
         <p>Comme l'a dit un grand philosophe... BASTOOOON !</p>
         <p>
@@ -41,6 +42,7 @@ function HeroDetailsModal({
           tempore, autem cumque similique possimus id itaque nulla minima
           placeat?
         </p>
+        </div>
       </div>
     </div>
   );
