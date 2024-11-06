@@ -3,7 +3,7 @@ import "./Card.css";
 interface CardsProps {
   image: string;
   name: string;
-  genre: string;
+  gender: string;
   onClick: () => void;
 }
 
@@ -22,7 +22,7 @@ function Card(props: CardsProps) {
         <img className="image-card" src={props.image} alt={props.name} />
         <div className="hero-data">
           <p>{props.name}</p>
-          <p>{props.genre}</p>
+          <p>{props.gender}</p>
         </div>
       </button>
     </div>
