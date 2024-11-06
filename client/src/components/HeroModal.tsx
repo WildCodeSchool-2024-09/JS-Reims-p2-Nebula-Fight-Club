@@ -35,37 +35,57 @@ function HeroDetailsModal({
                 ? hero.powerstats.combat
                 : "???"}
             </li>
-            <li>STRENGTH : {hero.powerstats.strength !== "null"
+            <li>
+              STRENGTH :{" "}
+              {hero.powerstats.strength !== "null"
                 ? hero.powerstats.strength
-                : "???"}</li>
-            <li>POWER : {hero.powerstats.power !== "null"
-                ? hero.powerstats.power
-                : "???"}</li>
+                : "???"}
+            </li>
+            <li>
+              POWER :{" "}
+              {hero.powerstats.power !== "null" ? hero.powerstats.power : "???"}
+            </li>
           </ul>
           <ul className="defensive-stats">
-            <li>SPEED : {hero.powerstats.speed !== "null"
-                ? hero.powerstats.speed
-                : "???"}</li>
-            <li>INTELLIGENCE : {hero.powerstats.intelligence !== "null"
+            <li>
+              SPEED :{" "}
+              {hero.powerstats.speed !== "null" ? hero.powerstats.speed : "???"}
+            </li>
+            <li>
+              INTELLIGENCE :{" "}
+              {hero.powerstats.intelligence !== "null"
                 ? hero.powerstats.intelligence
-                : "???"}</li>
-            <li>DURABILITY : {hero.powerstats.durability !== "null"
+                : "???"}
+            </li>
+            <li>
+              DURABILITY :{" "}
+              {hero.powerstats.durability !== "null"
                 ? hero.powerstats.durability
-                : "???"}</li>
+                : "???"}
+            </li>
           </ul>
           <div className="card-data">
-            <p>Alignement : {hero.biography.alignment !== "-"
+            <p>
+              Alignement :{" "}
+              {hero.biography.alignment !== "-"
                 ? hero.biography.alignment
-                : "Unknown ☕"}</p>
-            <p>{hero.biography.aliases === "-"
+                : "Unknown ☕"}
+            </p>
+            <p>
+              {hero.biography.aliases === "-"
                 ? hero.biography.aliases
-                : "No alias 🍹"}</p>
-            <h3>{hero.biography["first-appearance"] !== "-"
+                : "No alias 🍹"}
+            </p>
+            <h3>
+              {hero.biography["first-appearance"] !== "-"
                 ? hero.biography["first-appearance"]
-                : "Unknown 🍺"}</h3>
-            <h3>{hero.biography.publisher !== "-"
+                : "Unknown 🍺"}
+            </h3>
+            <h3>
+              {hero.biography.publisher !== "-"
                 ? hero.biography.publisher
-                : "Unknown 🥂"}</h3>
+                : "Unknown 🥂"}
+            </h3>
           </div>
         </section>
       </section>
