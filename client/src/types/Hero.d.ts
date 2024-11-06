@@ -1,5 +1,5 @@
 export interface Heroe {
-  id: number;
+  id: string;
   name: string;
   genre: string;
   powerstats: Powerstats;
@@ -11,12 +11,12 @@ export interface Heroe {
 }
 
 export interface Powerstats {
-  intelligence: number;
-  strength: number;
-  speed: number;
-  durability: number;
-  power: number;
-  combat: number;
+  intelligence: string;
+  strength: string;
+  speed: string;
+  durability: string;
+  power: string;
+  combat: string;
 }
 
 export interface Biography {
