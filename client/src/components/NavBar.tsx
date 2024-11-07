@@ -6,9 +6,9 @@ function NavBar() {
       <Link to={"/"} className="navbutton">
         Accueil
       </Link>
-      <button className="navbutton" type="button">
-        Genre
-      </button>
+      <Link to={"search"} className="navbutton">
+        Recherche
+      </Link>
       <button className="navbutton" type="button">
         Camp
       </button>

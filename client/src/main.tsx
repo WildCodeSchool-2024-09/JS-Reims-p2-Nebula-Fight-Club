@@ -9,6 +9,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import App from "./App";
 import Baston from "./pages/Baston";
 import Home from "./pages/Home";
+import SearchHero from "./pages/SearchHero";
 import "./index.css";
 
 // Import additional components for new routes
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Home />,
+      },
+      {
+        path: "/search",
+        element: <SearchHero />,
       },
       {
         path: "/fight",
