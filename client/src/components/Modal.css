@@ -26,7 +26,6 @@
 }
 
 .modal {
-  border-radius: 20px;
   background-color: var(--darkblue);
   padding: 20px;
   border-radius: 20px;
@@ -34,43 +33,57 @@
   max-height: 95%;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   position: relative;
-  text-align: center;
   color: var(--secondary-color);
 }
-@media screen and (min-width: 700px) and (max-width: 1200px) {
+@media screen and (min-width: 450px) {
   .modal {
-    width: 40%;
-    max-width: 800px;
+    width: 80%;
+    max-width: 500px;
   }
 }
 
 .modal-top {
   max-width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
   padding: 0.2rem;
 }
-@media screen and (min-width: 700px) and (max-width: 1200px) {
+@media screen and (min-width: 450px) and (max-width: 1200px) {
   .modal-top {
     justify-content: space-between;
   }
 }
-
-.stats-container > ul {
-  display: flex;
-  justify-content: flex-start;
-  gap: 0.8rem;
-  background-color: var(--primary-color);
-  color: var(--toolightblue);
-}
-
-h2 {
+.modal-top > p {
   text-align: center;
+  text-wrap: wrap;
   font-family: var(--font-family1);
   color: var(--toolightblue);
-  margin-left: 1rem;
+  margin: 0;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.tartiflette {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--primary-color);
+  color: var(--toolightblue);
+  margin-top: 10px;
+  border-radius: 15px;
+}
+.stats-container > .tartiflette > ul {
+  /*display: flex;
+  justify-content: flex-start;*/
+  gap: 0.8rem;
+  padding: 0;
+}
+.close-toto {
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  border-color: red;
 }
 
 .modal-image {
@@ -87,16 +100,15 @@ h2 {
   flex-direction: column;
   align-items: center;
   background-color: var(--darkblue);
-  padding: 0.2rem;
-  border-radius: 20px;
   opacity: 80%;
   gap: 0.5rem;
   font-family: var(--font-family2);
   font-size: 1rem;
   color: var(--secondary-color);
 }
-
-p {
+.card-data > P {
+  margin: 2px;
   font-family: var(--font-family2);
   color: var(--secondary-color);
+  text-overflow: ellipsis;
 }
