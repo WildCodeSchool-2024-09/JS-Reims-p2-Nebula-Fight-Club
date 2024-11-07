@@ -1,7 +1,6 @@
 export interface Heroe {
   id: string;
   name: string;
-  genre: string;
   powerstats: Powerstats;
   biography: Biography;
   appearance: Appearance;
