@@ -84,8 +84,8 @@ function HeroDetailsModal({
             </p>
             <p>
               {hero.biography.aliases === "-"
-                ? hero.biography.aliases
-                : "No alias 🍹"}
+                ? "No alias 🍹"
+                : hero.biography.aliases}
             </p>
             <p>
               {hero.biography["first-appearance"] !== "-"
