@@ -35,7 +35,7 @@ function Home() {
               key={heroe.id}
               image={heroe?.image?.url}
               name={heroe?.name}
-              gender={heroe?.appearance.gender}
+              gender={heroe?.appearance?.gender}
               onClick={() => handleCardClick(heroe)}
             />
           );
