@@ -43,19 +43,19 @@ function HeroDetailsModal({
             <ul className="offensive-stats">
               <li>
                 COMBAT :{" "}
-                {hero.powerstats.combat !== "null"
+                {hero?.powerstats?.combat !== "null"
                   ? hero.powerstats.combat
                   : "???"}
               </li>
               <li>
                 STRENGTH :{" "}
-                {hero.powerstats.strength !== "null"
+                {hero?.powerstats?.strength !== "null"
                   ? hero.powerstats.strength
                   : "???"}
               </li>
               <li>
                 POWER :{" "}
-                {hero.powerstats.power !== "null"
+                {hero?.powerstats?.power !== "null"
                   ? hero.powerstats.power
                   : "???"}
               </li>
@@ -63,19 +63,19 @@ function HeroDetailsModal({
             <ul className="defensive-stats">
               <li>
                 SPEED :{" "}
-                {hero.powerstats.speed !== "null"
+                {hero?.powerstats?.speed !== "null"
                   ? hero.powerstats.speed
                   : "???"}
               </li>
               <li>
                 INTELLIGENCE :{" "}
-                {hero.powerstats.intelligence !== "null"
+                {hero?.powerstats?.intelligence !== "null"
                   ? hero.powerstats.intelligence
                   : "???"}
               </li>
               <li>
                 DURABILITY :{" "}
-                {hero.powerstats.durability !== "null"
+                {hero?.powerstats?.durability !== "null"
                   ? hero.powerstats.durability
                   : "???"}
               </li>
@@ -84,19 +84,19 @@ function HeroDetailsModal({
           <div className="card-data">
             Surnoms:{" "}
             <p>
-              {hero.biography.aliases === "-"
+              {hero?.biography?.aliases === "-"
                 ? "No alias 🍹"
                 : hero.biography.aliases}
             </p>
             Première apparition:{" "}
             <p>
-              {hero.biography["first-appearance"] !== "-"
+              {hero?.biography["first-appearance"] !== "-"
                 ? hero.biography["first-appearance"]
                 : "Unknown 🍺"}
             </p>
             Univers:{" "}
             <p>
-              {hero.biography.publisher !== "-"
+              {hero?.biography?.publisher !== "-"
                 ? hero.biography.publisher
                 : "Unknown 🥂"}
             </p>
