@@ -29,8 +29,14 @@ function HeroDetailsModal({
           ❌
         </button>
         <div className="modal-top">
-          <img className="modal-image" src={hero?.image?.url} alt={hero.name} />
-          <p>{hero.name}</p>
+          <img className="modal-image" src={hero.image.url} alt={hero.name} />
+          <p>
+            {hero.name} /{" "}
+            {hero.biography.alignment !== "-"
+              ? hero.biography.alignment
+              : "Unknown ☕"}
+            {hero.biography.alignment === "good" ? "😇" : "💀"}
+          </p>
         </div>
         <section className="stats-container">
           <div className="tartiflette">
@@ -76,22 +82,19 @@ function HeroDetailsModal({
             </ul>
           </div>
           <div className="card-data">
-            <p>
-              Alignement :{" "}
-              {hero?.biography?.alignment !== "-"
-                ? hero.biography.alignment
-                : "Unknown ☕"}
-            </p>
+            Surnoms:{" "}
             <p>
               {hero?.biography?.aliases === "-"
                 ? "No alias 🍹"
                 : hero.biography.aliases}
             </p>
+            Première apparition:{" "}
             <p>
               {hero?.biography["first-appearance"] !== "-"
                 ? hero.biography["first-appearance"]
                 : "Unknown 🍺"}
             </p>
+            Univers:{" "}
             <p>
               {hero?.biography?.publisher !== "-"
                 ? hero.biography.publisher
