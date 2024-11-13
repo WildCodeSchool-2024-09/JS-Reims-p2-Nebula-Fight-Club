@@ -1,5 +1,5 @@
 import fightBanner from "../assets/images/bannsoon.png";
-import "/home/gege/Wild-code-school/JS-Reims-p2-Nebula-Fight-Club/client/src/components/Baston.css";
+import "../components/Baston.css";
 
 function Baston() {
   return (
