@@ -9,12 +9,9 @@ function NavBar() {
       <Link to={"search"} className="navbutton">
         Recherche
       </Link>
-      <button className="navbutton" type="button">
-        Camp
-      </button>
-      <button className="navbutton" type="button">
-        Univers
-      </button>
+      <Link to={"/"} className="navbutton">
+        A propos
+      </Link>
     </div>
   );
 }
