@@ -98,7 +98,7 @@ h2 {
   font-family: var(--font-family2);
 }
 
-p {
+.item-culum > p {
   font-size: 1.25rem;
   color: var(--secondary-color);
   font-family: var(--font-family1);
