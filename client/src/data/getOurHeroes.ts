@@ -1,7 +1,7 @@
 export async function getOurHeroes() {
   const accessToken = "9ee4fc0de4aeb36ca09d53d4b60c046d";
 
-  const ids = [15, 1, 143, 12, 289, 487];
+  const ids = [140, 659, 567, 213, 289, 487];
   const url = (id: number) =>
     `https://superheroapi.com/api.php/${accessToken}/${id}`;
 

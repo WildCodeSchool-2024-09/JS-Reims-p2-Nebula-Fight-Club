@@ -17,7 +17,7 @@ function About() {
   return (
     <div>
       <section className="Greuh">
-        <h4> Gégé !</h4>
+        <h2> Géraldine !</h2>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet cumque
           itaque inventore vero quas architecto est possimus nostrum hic,
@@ -47,7 +47,7 @@ function About() {
         </div>
       </section>
       <section className="Greuh">
-        <h4> Greuh !</h4>
+        <h2> Thomas !</h2>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet cumque
           itaque inventore vero quas architecto est possimus nostrum hic,
@@ -77,7 +77,7 @@ function About() {
         </div>
       </section>
       <section className="Greuh">
-        <h4> Salvia !</h4>
+        <h2> Salvia !</h2>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet cumque
           itaque inventore vero quas architecto est possimus nostrum hic,
