@@ -16,7 +16,7 @@ function About() {
   }, []);
   return (
     <div>
-      <section className="Greuh">
+      <section className="our-cards-container">
         <div className="item-culum">
           <h2> Géraldine !</h2>
           <p>
@@ -50,19 +50,19 @@ function About() {
                 <CardUs
                   image={heroes[0].image?.url}
                   firstName={heroes[0].name}
-                  description={"Tagazok"}
+                  description={"Gégé"}
                 />
                 <CardUs
                   image={heroes[1].image?.url}
                   firstName={heroes[1].name}
-                  description={"Tagazok"}
+                  description={"Gégé"}
                 />
               </>
             )}
           </section>
         </div>
       </section>
-      <section className="Greuh">
+      <section className="our-cards-container">
         <div className="item-culum">
           <h2> Thomas !</h2>
           <p>
@@ -101,19 +101,19 @@ function About() {
                 <CardUs
                   image={heroes[2].image?.url}
                   firstName={heroes[2].name}
-                  description={"Tagazok"}
+                  description={"Greuh"}
                 />
                 <CardUs
                   image={heroes[3].image?.url}
                   firstName={heroes[3].name}
-                  description={"Tagazok"}
+                  description={"Greuh"}
                 />
               </>
             )}
           </section>
         </div>
       </section>
-      <section className="Greuh">
+      <section className="our-cards-container">
         <div className="item-culum">
           <h2> Salvia !</h2>
           <p>
@@ -135,12 +135,12 @@ function About() {
                 <CardUs
                   image={heroes[4].image?.url}
                   firstName={heroes[4].name}
-                  description={"Tagazok"}
+                  description={"Salvia"}
                 />
                 <CardUs
                   image={heroes[5].image?.url}
                   firstName={heroes[5].name}
-                  description={"Tagazok"}
+                  description={"Salvia"}
                 />
               </>
             )}

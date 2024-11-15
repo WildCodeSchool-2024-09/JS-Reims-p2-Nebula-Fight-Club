@@ -70,7 +70,7 @@ h1 {
   font-family: var(--font-family1);
 }
 
-.Greuh {
+.our-cards-container {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -117,17 +117,4 @@ h2 {
   width: 100%;
   display: flex;
   justify-content: center;
-}
-
-.card-row {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 20px;
-  width: 100%;
-}
-
-.card-row .CardUs {
-  flex: 1;
-  max-width: 200px;
 }
