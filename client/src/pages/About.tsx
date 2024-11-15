@@ -20,12 +20,27 @@ function About() {
         <div className="item-culum">
           <h2> Géraldine !</h2>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet
-            cumque itaque inventore vero quas architecto est possimus nostrum
-            hic, temporibus iusto, ex, ipsam veniam! Repellendus, corrupti.
-            Cupiditate aliquam tenetur, deserunt cumque, non vero autem,
-            necessitatibus provident nihil vitae eaque magnam unde officiis.
-            Corporis rem eum aut iste accusantium ut harum.
+            Hello, moi c'est Géraldine, alias Gégé pour les intimes. Je suis fan
+            de série télé et de cinéma, surtout des univers fantastiques. J'ai
+            baigné dans l'univers des comics depuis mon enfance, grâce à mon
+            papa. J'ai découvert les films avec lui. Je vous présente deux
+            personnages que j'apprécie pour différentes raisons.
+            <br />
+            Pourquoi ai-je choisi Buffy Summers ? Buffy n'a pas une vie facile
+            et bien qu'elle commence par la rejeté, elle l'accepte finalement et
+            se bat pour réussir sa mission. J'adore ce personnage, car elle
+            représente pour moi une femme forte et fragile en même temps. Elle
+            est courageuse et je l'admire pour ça. Je pense que Buffy représente
+            la femme que j'aurais voulu être pendant mon adolescence. Elle a un
+            fort caractère, alors que moi je suis très effacée.
+            <br />
+            Pourquoi avoir choisi Thor ? J'aime beaucoup l'humour de ce
+            personnage. Il est très fort, c'est un Dieu tout de même, mais il
+            est aussi très maladroit. Je trouve que c'est un personnage
+            intéressant, attachant et entier. Il essaye d'apprendre de ses
+            erreurs et de guider son peuple du mieux qu'il peut. Je pense que je
+            me suis attaché à lui, parce que je suis maman et que je dois aussi
+            guider ma famille.
           </p>
         </div>
         <div className="pokecards">
@@ -51,12 +66,32 @@ function About() {
         <div className="item-culum">
           <h2> Thomas !</h2>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet
-            cumque itaque inventore vero quas architecto est possimus nostrum
-            hic, temporibus iusto, ex, ipsam veniam! Repellendus, corrupti.
-            Cupiditate aliquam tenetur, deserunt cumque, non vero autem,
-            necessitatibus provident nihil vitae eaque magnam unde officiis.
-            Corporis rem eum aut iste accusantium ut harum.
+            Salut ! Moi c'est Thomas, ou "Greuh" pour les intimes 😉 Fan de
+            comics, jeux vidéo, séries et j'en passe. Pour quelqu'un ayant un
+            côté geek comme moi, ce projet était très intéressant et j'espère
+            que vous prendrez plaisir à découvrir quelques infos sur vos
+            personnages favoris ! En attendant, voici deux personnages que
+            j'apprécie !<br />
+            <br />
+            J'aimerais vous présenter le personnage de Rogue. Pendant longtemps
+            membre de l'équipe des X-men, elle a souvent pris son indépendance
+            au fil des comics. Son pouvoir d'absorption de pouvoirs est souvent
+            vécu comme un fardeau car elle copie également la mémoire de sa
+            cible, l'obligeant à lutter pour rester elle-même. Elle reste malgré
+            tout une personnalité forte, qui s'est confrontée à des personnages
+            comme Magneto ou Apocalypse. <br />
+            <br />
+            Le choix n'a pas été simple, tant de personnages me tiennent à
+            cœur... Mais Deadpool est sans doute le plus connu, surtout depuis
+            qu'on le voit au cinéma ! Mais je l'apprécie davantage en version
+            comics pour son côté plus sombre et profond. La folie est toujours
+            présente, il brise allègrement le 4e mur (il sait qu'il est dans un
+            comic après tout) mais c'est un personnage qui a réussi à rendre
+            jaloux Thanos... Il aime également se "perdre" dans d'autres univers
+            pour rendre visite à différents personnages ; Spider-man, Black
+            Panther, Moon Knight, même chez les Teen Titans. Il est partout et
+            nulle part à la fois, mais c'est ça, la folie de notre cher Deadpool
+            !
           </p>
         </div>
         <div className="pokecards">
