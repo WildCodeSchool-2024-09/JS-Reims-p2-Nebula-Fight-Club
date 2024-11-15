@@ -17,18 +17,19 @@ function About() {
   return (
     <div>
       <section className="Greuh">
-        <h2> Géraldine !</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet cumque
-          itaque inventore vero quas architecto est possimus nostrum hic,
-          temporibus iusto, ex, ipsam veniam! Repellendus, corrupti. Cupiditate
-          aliquam tenetur, deserunt cumque, non vero autem, necessitatibus
-          provident nihil vitae eaque magnam unde officiis. Corporis rem eum aut
-          iste accusantium ut harum.
-        </p>
+        <div className="item-culum">
+          <h2> Géraldine !</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet
+            cumque itaque inventore vero quas architecto est possimus nostrum
+            hic, temporibus iusto, ex, ipsam veniam! Repellendus, corrupti.
+            Cupiditate aliquam tenetur, deserunt cumque, non vero autem,
+            necessitatibus provident nihil vitae eaque magnam unde officiis.
+            Corporis rem eum aut iste accusantium ut harum.
+          </p>
+        </div>
         <div className="pokecards">
           <section className="ourpokecards">
-            <h3> Mes personnages préférés !</h3>
             {heroes && heroes.length >= 2 && (
               <>
                 <CardUs
@@ -47,18 +48,19 @@ function About() {
         </div>
       </section>
       <section className="Greuh">
-        <h2> Thomas !</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet cumque
-          itaque inventore vero quas architecto est possimus nostrum hic,
-          temporibus iusto, ex, ipsam veniam! Repellendus, corrupti. Cupiditate
-          aliquam tenetur, deserunt cumque, non vero autem, necessitatibus
-          provident nihil vitae eaque magnam unde officiis. Corporis rem eum aut
-          iste accusantium ut harum.
-        </p>
+        <div className="item-culum">
+          <h2> Thomas !</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet
+            cumque itaque inventore vero quas architecto est possimus nostrum
+            hic, temporibus iusto, ex, ipsam veniam! Repellendus, corrupti.
+            Cupiditate aliquam tenetur, deserunt cumque, non vero autem,
+            necessitatibus provident nihil vitae eaque magnam unde officiis.
+            Corporis rem eum aut iste accusantium ut harum.
+          </p>
+        </div>
         <div className="pokecards">
           <section className="ourpokecards">
-            <h3> Mes personnages préférés !</h3>
             {heroes && heroes.length >= 2 && (
               <>
                 <CardUs
@@ -77,18 +79,22 @@ function About() {
         </div>
       </section>
       <section className="Greuh">
-        <h2> Salvia !</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet cumque
-          itaque inventore vero quas architecto est possimus nostrum hic,
-          temporibus iusto, ex, ipsam veniam! Repellendus, corrupti. Cupiditate
-          aliquam tenetur, deserunt cumque, non vero autem, necessitatibus
-          provident nihil vitae eaque magnam unde officiis. Corporis rem eum aut
-          iste accusantium ut harum.
-        </p>
+        <div className="item-culum">
+          <h2> Salvia !</h2>
+          <p>
+            Nebula et Goku incarnent des valeurs essentielles : la résilience ,
+            le courage , la quête de rédemption et l'amélioration de soi .
+            Ensemble, ils montrent que peu importe les défis ou les erreurs du
+            passé, il est toujours possible de grandir et de devenir une
+            meilleure personne. Ils enseignent l'importance de faire face aux
+            difficultés , de ne jamais abandonner , et de se battre pour ce qui
+            est juste, tout en gardant l' espoir et une attitude positive Leur
+            force ne réside pas seulement dans leurs capacités, mais dans leur
+            capacité à surmonter les obstacles.
+          </p>
+        </div>
         <div className="pokecards">
           <section className="ourpokecards">
-            <h3> Mes personnages préférés !</h3>
             {heroes && heroes.length >= 2 && (
               <>
                 <CardUs
