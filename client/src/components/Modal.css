@@ -78,8 +78,6 @@
   border-radius: 15px;
 }
 .stats-container > .tartiflette > ul {
-  /*display: flex;
-  justify-content: flex-start;*/
   gap: 0.8rem;
   padding: 0;
   margin: 0.25rem;
